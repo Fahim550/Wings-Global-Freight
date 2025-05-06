@@ -19,4 +19,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  theme:{
+    backgroundImage:{
+      "hero-bg":"url('@/assets/image/hero.jpg')"
+    }
+  }
 })
