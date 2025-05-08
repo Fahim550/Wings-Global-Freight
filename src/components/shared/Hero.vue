@@ -18,7 +18,7 @@ export default {
 
     <!-- Hero text content -->
     <div class="relative z-10 text-center px-4">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4 uppercase">{{ message }}</h1>
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">{{ message }}</h1>
       <p class="text-lg md:text-xl max-w-2xl mx-auto">
         Home<span class="text-6xl font-bold mb-6"> . </span>{{ message }}
       </p>
