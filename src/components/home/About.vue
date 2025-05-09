@@ -13,7 +13,7 @@
 
       <!-- Text and Video Button -->
       <div class="w-full lg:w-1/2">
-        <h6 class="text-blue-500 font-bold uppercase mb-2">About Us</h6>
+        <h6 class="text-purple-500 font-bold uppercase mb-2">About Us</h6>
         <h2 class="text-3xl lg:text-4xl font-extrabold mb-4 leading-snug">
           Trusted & Faster Logistic Service Provider
         </h2>

@@ -28,9 +28,9 @@ const services = [
 </script>
 
 <template>
-  <section class="py-16 bg-gray-100 text-center">
+  <section class="py-16 bg-purple-100 text-center">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-semibold mb-12">Our Services</h2>
+      <h2 class="text-4xl font-bold mb-12 text-purple-500">Our Services</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div
           v-for="service in services"

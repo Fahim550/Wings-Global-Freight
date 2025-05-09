@@ -5,9 +5,9 @@ import service from '@/assets/image/service.jpg'
 </script>
 
 <template>
-  <div class="container mx-auto relative overflow-hidden pt-16 pb-32 space-y-24 text-black">
+  <div class="relative overflow-hidden pt-16 pb-32 space-y-24 text-black">
     <div class="flex flex-col justify-center items-center gap-2">
-      <h1 class="text-4xl font-bold text-blue-500">Why Choose Us</h1>
+      <h1 class="text-4xl font-bold text-purple-500">Why Choose Us</h1>
       <p class="text-xl font-semibold">
         We provide seamless, reliable logistics solutions that keep your supply chain moving.
       </p>
@@ -50,7 +50,7 @@ import service from '@/assets/image/service.jpg'
       </div>
     </div>
 
-    <div class="relative">
+    <div class="relative bg-purple-100 py-10">
       <div
         class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
       >

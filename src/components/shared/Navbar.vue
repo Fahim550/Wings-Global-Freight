@@ -52,7 +52,12 @@ onBeforeUnmount(() => {
             />
           </svg>
         </a>
-        <a href="#" target="_blank" aria-label="LinkedIn" class="hover:text-blue-300">
+        <a
+          href="https://www.linkedin.com/company/wings-global-freight-limited/"
+          target="_blank"
+          aria-label="LinkedIn"
+          class="hover:text-blue-300"
+        >
           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
             <path
               d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9h4v12H3V9zm7 0h3.6v1.8h.05c.5-.95 1.7-1.95 3.5-1.95 3.75 0 4.45 2.45 4.45 5.6V21h-4v-5.3c0-1.25-.02-2.85-1.8-2.85-1.8 0-2.1 1.4-2.1 2.75V21h-4V9z"
@@ -79,9 +84,12 @@ onBeforeUnmount(() => {
           </div>
           <!-- Desktop Menu -->
           <div class="hidden md:flex items-center space-x-4">
-            <a href="#" class="text-inherit hover:text-blue-400 transition-colors duration-50"
-              >Home</a
+            <RouterLink
+              to="/home"
+              class="text-inherit hover:text-blue-400 transition-colors duration-50"
             >
+              Home
+            </RouterLink>
 
             <!-- Wings Freight Dropdown -->
             <div class="relative group">
@@ -91,24 +99,42 @@ onBeforeUnmount(() => {
               <ul
                 class="absolute left-0 mt-2 w-48 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 z-50"
               >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >About</RouterLink
+                <RouterLink
+                  to="/about"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Our Vision</RouterLink
+                  About
+                </RouterLink>
+                <RouterLink
+                  to="/our-vision"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >CSR</RouterLink
+                  Our Vision
+                </RouterLink>
+                <RouterLink
+                  to="/home"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Compliance</RouterLink
+                  CSR
+                </RouterLink>
+                <RouterLink
+                  to="/home"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Human Resource</RouterLink
+                  Compliance
+                </RouterLink>
+                <RouterLink
+                  to="/home"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Location</RouterLink
+                  Human Resource
+                </RouterLink>
+                <RouterLink
+                  to="/location"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
+                  Location
+                </RouterLink>
               </ul>
             </div>
 
@@ -118,44 +144,78 @@ onBeforeUnmount(() => {
                 Services
               </button>
               <div
-                class="absolute left-0 mt-2 w-56 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 z-50"
+                class="absolute left-0 mt-2 w-56 bg-white/95 backdrop-blur border border-gray-200 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 ease-out z-50"
               >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Services</RouterLink
+                <RouterLink
+                  to="/service"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Air Freight</RouterLink
+                  Services
+                </RouterLink>
+                <RouterLink
+                  to="/import-service"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Multimodal</RouterLink
+                  Import Service
+                </RouterLink>
+                <RouterLink
+                  to="/home"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Warehousing</RouterLink
+                  Air Freight
+                </RouterLink>
+                <RouterLink
+                  to="/home"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Import Service</RouterLink
+                  Multimodal
+                </RouterLink>
+                <RouterLink
+                  to="/home"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Customs Brokerage</RouterLink
+                  Warehousing
+                </RouterLink>
+
+                <RouterLink
+                  to="/home"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >Quality Control Platform</RouterLink
+                  Customs Brokerage
+                </RouterLink>
+                <RouterLink
+                  to="/home"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
+                  Quality Control Platform
+                </RouterLink>
               </div>
             </div>
 
-            <a href="#" class="text-inherit hover:text-blue-400 transition-colors duration-50"
-              >Career</a
+            <RouterLink
+              to="/career"
+              class="text-inherit hover:text-blue-400 transition-colors duration-50"
             >
-            <a href="#" class="text-inherit hover:text-blue-400 transition-colors duration-50"
-              >News</a
+              Career
+            </RouterLink>
+            <RouterLink
+              to="/home"
+              class="text-inherit hover:text-blue-400 transition-colors duration-50"
             >
-            <a href="#" class="text-inherit hover:text-blue-400 transition-colors duration-50"
-              >Gallery</a
+              Projects
+            </RouterLink>
+            <!-- <RouterLink
+              to="/home"
+              class="text-inherit hover:text-blue-400 transition-colors duration-50"
             >
-            <a href="#" class="text-inherit hover:text-blue-400 transition-colors duration-50"
-              >Contact Us</a
+              Gallery
+            </RouterLink> -->
+            <RouterLink
+              to="/contact"
+              class="text-inherit hover:text-blue-400 transition-colors duration-50"
             >
+              Contact Us
+            </RouterLink>
 
             <RouterLink
               to="/"
@@ -200,10 +260,12 @@ onBeforeUnmount(() => {
               </span>
               <span
                 class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white"
-                >Booking</span
               >
+                Booking
+              </span>
             </RouterLink>
           </div>
+
           <!-- Mobile Menu Button -->
           <div class="md:hidden flex items-center">
             <button
@@ -234,75 +296,76 @@ onBeforeUnmount(() => {
       <!-- Mobile Menu -->
       <div v-if="isMobileMenuOpen" class="md:hidden">
         <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a
-            href="#"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600"
-            >Home</a
+          <RouterLink
+            to="/home"
+            class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
+            >Home</RouterLink
           >
+
           <div>
             <button
               @click="toggleDropdown('about')"
-              class="w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 focus:outline-none"
+              class="w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray- hover:text-blue-600 focus:outline-none"
             >
-              About Us
+              Wings Freight
             </button>
             <div v-if="dropdowns.about" class="pl-4">
-              <a
-                href="#"
-                class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600"
-                >Our Activities</a
-              >
+              <RouterLink
+                to="/about"
+                class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
+                >About
+              </RouterLink>
+              <RouterLink
+                to="/our-vision"
+                class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
+                >Our Vision
+              </RouterLink>
             </div>
           </div>
+
           <div>
             <button
               @click="toggleDropdown('member')"
-              class="w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 focus:outline-none"
+              class="w-full text-left px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600 focus:outline-none"
             >
-              Member
+              Service
             </button>
             <div v-if="dropdowns.member" class="pl-4">
-              <a
-                href="#"
-                class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600"
-                >Membership Registration</a
+              <RouterLink
+                to="/Service"
+                class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
+                >Service</RouterLink
               >
-              <a
-                href="#"
-                class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600"
-                >How to Get Membership</a
+              <RouterLink
+                to="/home"
+                class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
+                >Import Service</RouterLink
               >
             </div>
           </div>
-          <a
-            href="#"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600"
-            >Committees</a
+
+          <RouterLink
+            to="/career"
+            class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
+            >Career</RouterLink
           >
-          <a
-            href="#"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600"
-            >Job Board</a
+
+          <RouterLink
+            to="/home"
+            class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
+            >Project</RouterLink
           >
-          <a
-            href="#"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600"
-            >Gallery</a
-          >
-          <a
-            href="#"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600"
-            >News & Update</a
-          >
-          <a
-            href="#"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600"
-            >Contact Us</a
-          >
-          <a
-            href="#"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600"
-            >Login</a
+
+          <!-- <RouterLink
+            to="/home"
+            class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
+            >Gallery</RouterLink
+          > -->
+
+          <RouterLink
+            to="/contact"
+            class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
+            >Contact Us</RouterLink
           >
         </div>
       </div>

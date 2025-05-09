@@ -5,7 +5,12 @@
   .bg-hero-pattern {
     /* point to the public URL */
     background-image: url('../assets/image/hero.jpg');
-    air-image: url('../assets/images/air-freight.jpg');
+  }
+  .bg-air-freight {
+    background-image: url('/assets/images/air-freight.jpg');
+  }
+  .bg-newsletter {
+    background-image: url('/assets/image/laptop.jpg');
   }
 }
 /* #app {
