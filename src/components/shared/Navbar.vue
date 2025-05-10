@@ -111,7 +111,7 @@ onBeforeUnmount(() => {
                 >
                   Our Vision
                 </RouterLink>
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                <!-- <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   CSR
                 </RouterLink>
                 <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
@@ -125,7 +125,7 @@ onBeforeUnmount(() => {
                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                 >
                   Location
-                </RouterLink>
+                </RouterLink> -->
               </ul>
             </div>
 
@@ -149,7 +149,7 @@ onBeforeUnmount(() => {
                 >
                   Import Service
                 </RouterLink>
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                <!-- <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Air Freight
                 </RouterLink>
                 <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
@@ -164,7 +164,7 @@ onBeforeUnmount(() => {
                 </RouterLink>
                 <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Quality Control Platform
-                </RouterLink>
+                </RouterLink> -->
               </div>
             </div>
 

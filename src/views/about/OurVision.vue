@@ -60,12 +60,16 @@ const closeModal = () => {
             We are confident to handle your logistics needs.
           </h1>
           <p class="text-gray-700 leading-relaxed mb-6">
-            The ever-changing world of the Clearing and Forwarding Sector requires its players to
-            constantly be on the lookout for more innovative and sophisticated ways to stay in the
-            game...
+            In today’s fast-paced and evolving logistics landscape, staying ahead requires more than
+            just experience — it demands innovation, flexibility, and a relentless commitment to
+            excellence. At Wings Global Freight Ltd., we understand the critical role we play in
+            your supply chain. That’s why we continuously refine our services to be smarter, faster,
+            and more reliable. We don’t just deliver goods — we deliver confidence. As you explore
+            our company profile, we hope you’ll see why we are the trusted choice for comprehensive
+            import, export, and freight solutions
           </p>
           <a
-            href="profile/Wings Global Freight Ltd-Corporate Profile.pdf"
+            href="https://wingsfreightbd.com/profile/Wings%20Global%20Freight%20Ltd-Corporate%20Profile.pdf"
             target="_blank"
             class="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition"
           >
@@ -101,12 +105,15 @@ const closeModal = () => {
           </h6>
           <h1 class="text-3xl font-bold mt-2 mb-4">Our mission is to exceed your expectations.</h1>
           <p class="text-gray-700 leading-relaxed mb-6">
-            With extensive experience in logistics and client relationship management, we aim to
-            build enduring partnerships. At Wings Global Freight Ltd., we are driven by innovation,
-            accountability, and trust...
+            The logistics and freight forwarding industry is more competitive and complex than ever.
+            At Wings Global Freight Ltd., we’ve built our foundation on adaptability, precision, and
+            client-centric service. We go beyond simply managing cargo — we craft tailored solutions
+            that help your business grow and thrive. By combining industry insight with cutting-edge
+            practices, we ensure seamless operations at every stage. We invite you to browse our
+            profile and discover how our passion and performance can support your logistics goals.
           </p>
           <a
-            href="profile/Wings Global Freight Ltd-Corporate Profile.pdf"
+            href="https://wingsfreightbd.com/profile/Wings%20Global%20Freight%20Ltd-Corporate%20Profile.pdf"
             target="_blank"
             class="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition"
           >
