@@ -97,7 +97,7 @@ const closeModal = () => {
         <!-- Left Column (Speech) -->
         <div>
           <h6 class="text-blue-600 uppercase font-bold text-sm tracking-widest">
-            Message from Director
+            Message from Head of Business Development
           </h6>
           <h1 class="text-3xl font-bold mt-2 mb-4">Our mission is to exceed your expectations.</h1>
           <p class="text-gray-700 leading-relaxed mb-6">
@@ -140,7 +140,7 @@ const closeModal = () => {
           <div class="bg-blue-600 text-white text-center py-4 mt-4">
             <h4 class="text-xl font-semibold">
               Aukiul Islam<br />
-              <span class="text-sm">Director Business Development</span>
+              <span class="text-sm">Head of Business Development</span>
             </h4>
           </div>
         </div>

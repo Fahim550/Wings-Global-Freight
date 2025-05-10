@@ -15,11 +15,11 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
-    {
-      path: '/home',
-      name: 'home',
-      component: HomeView,
-    },
+    // {
+    //   path: '/home',
+    //   name: 'home',
+    //   component: HomeView,
+    // },
     {
       path: '/about',
       name: 'about',

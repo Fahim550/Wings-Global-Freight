@@ -85,7 +85,7 @@ onBeforeUnmount(() => {
           <!-- Desktop Menu -->
           <div class="hidden md:flex items-center space-x-4">
             <RouterLink
-              to="/home"
+              to="/"
               class="text-inherit hover:text-blue-400 transition-colors duration-50"
             >
               Home
@@ -111,22 +111,13 @@ onBeforeUnmount(() => {
                 >
                   Our Vision
                 </RouterLink>
-                <RouterLink
-                  to="/home"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                >
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   CSR
                 </RouterLink>
-                <RouterLink
-                  to="/home"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                >
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Compliance
                 </RouterLink>
-                <RouterLink
-                  to="/home"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                >
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Human Resource
                 </RouterLink>
                 <RouterLink
@@ -158,35 +149,20 @@ onBeforeUnmount(() => {
                 >
                   Import Service
                 </RouterLink>
-                <RouterLink
-                  to="/home"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                >
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Air Freight
                 </RouterLink>
-                <RouterLink
-                  to="/home"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                >
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Multimodal
                 </RouterLink>
-                <RouterLink
-                  to="/home"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                >
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Warehousing
                 </RouterLink>
 
-                <RouterLink
-                  to="/home"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                >
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Customs Brokerage
                 </RouterLink>
-                <RouterLink
-                  to="/home"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                >
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   Quality Control Platform
                 </RouterLink>
               </div>
@@ -199,7 +175,7 @@ onBeforeUnmount(() => {
               Career
             </RouterLink>
             <RouterLink
-              to="/home"
+              to="/"
               class="text-inherit hover:text-blue-400 transition-colors duration-50"
             >
               Projects
@@ -297,7 +273,7 @@ onBeforeUnmount(() => {
       <div v-if="isMobileMenuOpen" class="md:hidden">
         <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <RouterLink
-            to="/home"
+            to="/"
             class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
             >Home</RouterLink
           >
@@ -337,7 +313,7 @@ onBeforeUnmount(() => {
                 >Service</RouterLink
               >
               <RouterLink
-                to="/home"
+                to="/"
                 class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
                 >Import Service</RouterLink
               >
@@ -351,7 +327,7 @@ onBeforeUnmount(() => {
           >
 
           <RouterLink
-            to="/home"
+            to="/"
             class="block px-3 py-2 rounded-md text-base font-medium transition-colors hover:text-blue-600"
             >Project</RouterLink
           >
