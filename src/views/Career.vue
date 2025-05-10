@@ -5,10 +5,10 @@ import Hero from '@/components/shared/Hero.vue'
 <template>
   <div>
     <Hero message="Career" />
-    <div class="container mx-auto px-4 grid grid-cols-2 py-8">
-      <div class="col-span-1 py-24">
+    <div class="px-4 grid grid-cols-2 py-8">
+      <div class="col-span-2 md:col-span-1 py-24">
         <div class="max-w-4xl mx-auto px-4 text-center">
-          <h2 class="text-3xl font-bold text-blue-600 text-left">We are hiring</h2>
+          <h2 class="text-3xl font-bold text-purple-600 text-left">We are hiring</h2>
           <p class="mt-4 text-lg text-gray-700 text-left leading-8">
             At Wings Global Freight, we believe in nurturing and developing talent. We value
             teamwork and seek individuals with strong leadership qualities. If you're ready to
@@ -16,7 +16,9 @@ import Hero from '@/components/shared/Hero.vue'
           </p>
         </div>
       </div>
-      <form class="py-8 col-span-1 container mx-auto divide-gray-200">
+      <form
+        class="py-8 col-span-2 md:col-span-1 px-4 container mx-auto rounded-bl-2xl rounded-tl-2xl shadow-md"
+      >
         <!-- Personal Info Section -->
         <div class="space-y-8">
           <div class="grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6"></div>
@@ -174,7 +176,7 @@ import Hero from '@/components/shared/Hero.vue'
         <div class="flex justify-end">
           <button
             type="submit"
-            class="inline-flex justify-center py-3 px-8 border border-transparent text-xl font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            class="inline-flex justify-center py-3 px-8 border border-transparent text-xl font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
           >
             Save
           </button>
