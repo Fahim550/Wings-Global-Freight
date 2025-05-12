@@ -175,7 +175,7 @@ onBeforeUnmount(() => {
               Career
             </RouterLink>
             <RouterLink
-              to="/"
+              to="/projects"
               class="text-inherit hover:text-blue-400 transition-colors duration-50"
             >
               Projects
