@@ -21,6 +21,9 @@ import Hero from '@/components/shared/Hero.vue'
           <li>Import Services</li>
           <li>Project & Bulk Cargo Handling</li>
           <li>End-to-End Supply Chain Management</li>
+          <li>DAP- Delivery At Place</li>
+          <li>DDP - Delivery At Place Unloaded</li>
+          <li>DPU- Delivery Duty Pain</li>
         </ul>
       </div>
 
