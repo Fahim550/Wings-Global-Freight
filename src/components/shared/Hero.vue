@@ -11,7 +11,7 @@ export default {
 
 <template>
   <section
-    class="relative bg-[url('../assets/image/share-hero.jpg')] bg-cover bg-center bg-no-repeat h-[90vh] flex items-center justify-center text-white"
+    class="relative bg-[url('https://i.ibb.co/fYsFStTY/share-hero.jpg')] bg-cover bg-center bg-no-repeat h-[90vh] flex items-center justify-center text-white"
   >
     <!-- Black overlay -->
     <div class="absolute inset-0 bg-black opacity-50"></div>

@@ -30,7 +30,7 @@ onBeforeUnmount(() => {
 
 <template>
   <div>
-    <div class="bg-gray-800 h-10 text-white flex items-center justify-between px-4 text-sm">
+    <div class="bg-navy h-10 text-white flex items-center justify-between px-4 text-sm">
       <!-- Left side: Email -->
       <div>
         <a href="mailto:info@example.com" class="hover:underline">info@example.com</a>
@@ -86,43 +86,43 @@ onBeforeUnmount(() => {
           <div class="hidden md:flex items-center space-x-4">
             <RouterLink
               to="/"
-              class="text-inherit hover:text-blue-400 transition-colors duration-50"
+              class="text-inherit hover:text-primary transition-colors duration-50"
             >
               Home
             </RouterLink>
 
             <!-- Wings Freight Dropdown -->
             <div class="relative group">
-              <button class="text-inherit hover:text-blue-400 transition-colors duration-50">
+              <button class="text-inherit hover:text-primary transition-colors duration-50">
                 Wings Freight
               </button>
               <ul
-                class="absolute left-0 mt-2 w-48 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 z-50"
+                class="absolute left-0 mt-2 w-48 bg-light border rounded shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 z-50"
               >
                 <RouterLink
                   to="/about"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-light"
                 >
                   About
                 </RouterLink>
                 <RouterLink
                   to="/our-vision"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-light"
                 >
                   Our Vision
                 </RouterLink>
-                <!-- <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                <!-- <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700  hover:bg-primary  hover:text-light">
                   CSR
                 </RouterLink>
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700  hover:bg-primary  hover:text-light">
                   Compliance
                 </RouterLink>
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700  hover:bg-primary  hover:text-light">
                   Human Resource
                 </RouterLink>
                 <RouterLink
                   to="/location"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  class="block px-4 py-2 text-sm text-gray-700  hover:bg-primary  hover:text-light"
                 >
                   Location
                 </RouterLink> -->
@@ -131,38 +131,38 @@ onBeforeUnmount(() => {
 
             <!-- Services Dropdown -->
             <div class="relative group">
-              <button class="text-inherit hover:text-blue-400 transition-colors duration-50">
+              <button class="text-inherit hover:text-primary transition-colors duration-50">
                 Services
               </button>
               <div
-                class="absolute left-0 mt-2 w-56 bg-white/95 backdrop-blur border border-gray-200 rounded-xl shadow-xl opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 ease-out z-50"
+                class="absolute left-0 mt-2 w-56 bg-light backdrop-blur border border-gray-200 rounded-md shadow-xl opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 ease-out z-50"
               >
                 <RouterLink
                   to="/service"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-light"
                 >
                   Services
                 </RouterLink>
                 <RouterLink
                   to="/import-service"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-light"
                 >
                   Import Service
                 </RouterLink>
-                <!-- <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                <!-- <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700  hover:bg-primary  hover:text-light">
                   Air Freight
                 </RouterLink>
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700  hover:bg-primary  hover:text-light">
                   Multimodal
                 </RouterLink>
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700  hover:bg-primary  hover:text-light">
                   Warehousing
                 </RouterLink>
 
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700  hover:bg-primary  hover:text-light">
                   Customs Brokerage
                 </RouterLink>
-                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                <RouterLink to="/" class="block px-4 py-2 text-sm text-gray-700  hover:bg-primary  hover:text-light">
                   Quality Control Platform
                 </RouterLink> -->
               </div>
@@ -170,25 +170,25 @@ onBeforeUnmount(() => {
 
             <RouterLink
               to="/career"
-              class="text-inherit hover:text-blue-400 transition-colors duration-50"
+              class="text-inherit hover:text-primary transition-colors duration-50"
             >
               Career
             </RouterLink>
             <RouterLink
               to="/projects"
-              class="text-inherit hover:text-blue-400 transition-colors duration-50"
+              class="text-inherit hover:text-primary transition-colors duration-50"
             >
               Projects
             </RouterLink>
             <!-- <RouterLink
               to="/home"
-              class="text-inherit hover:text-blue-400 transition-colors duration-50"
+              class="text-inherit hover:text-primary transition-colors duration-50"
             >
               Gallery
             </RouterLink> -->
             <RouterLink
               to="/contact"
-              class="text-inherit hover:text-blue-400 transition-colors duration-50"
+              class="text-inherit hover:text-primary transition-colors duration-50"
             >
               Contact Us
             </RouterLink>
@@ -198,11 +198,11 @@ onBeforeUnmount(() => {
               class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group"
             >
               <span
-                class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"
+                class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-navy group-hover:h-full"
               ></span>
               <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
                 <svg
-                  class="w-5 h-5 text-green-400"
+                  class="w-5 h-5 text-primary"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -220,7 +220,7 @@ onBeforeUnmount(() => {
                 class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200"
               >
                 <svg
-                  class="w-5 h-5 text-green-400"
+                  class="w-5 h-5 text-light"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

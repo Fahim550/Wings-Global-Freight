@@ -1,13 +1,9 @@
-<script setup>
-import best from '@/assets/image/best.jpg'
-import fast from '@/assets/image/fast.jpeg'
-import service from '@/assets/image/service.jpg'
-</script>
+<script setup></script>
 
 <template>
   <div class="relative overflow-hidden pt-16 pb-32 space-y-24 text-black">
     <div class="flex flex-col justify-center items-center gap-2">
-      <h1 class="text-4xl font-bold text-purple-500">Why Choose Us</h1>
+      <h1 class="text-4xl font-bold text-secondery">Why Choose Us</h1>
       <p class="text-xl font-semibold">
         We provide seamless, reliable logistics solutions that keep your supply chain moving.
       </p>
@@ -26,7 +22,7 @@ import service from '@/assets/image/service.jpg'
               </p>
               <div class="mt-6">
                 <a
-                  class="inline-flex rounded-lg bg-purple-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple-600 hover:bg-purple-700 hover:ring-purple-700"
+                  class="inline-flex rounded-lg bg-secondery px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-secondery hover:bg-navy hover:ring-navy"
                   href="/login"
                 >
                   Learn More
@@ -43,14 +39,14 @@ import service from '@/assets/image/service.jpg'
               height="486"
               class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
               style="color: transparent"
-              :src="fast"
+              src="https://i.ibb.co/FbyYq8h2/fast.jpg"
             />
           </div>
         </div>
       </div>
     </div>
 
-    <div class="relative bg-purple-100 py-10">
+    <div class="relative bg-light py-10">
       <div
         class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
       >
@@ -64,7 +60,7 @@ import service from '@/assets/image/service.jpg'
               </p>
               <div class="mt-6">
                 <a
-                  class="inline-flex rounded-lg bg-purple-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple-600 hover:bg-purple-700 hover:ring-purple-700"
+                  class="inline-flex rounded-lg bg-secondery px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-secondery hover:bg-navy hover:ring-navy"
                   href="/login"
                 >
                   Learn More
@@ -82,7 +78,7 @@ import service from '@/assets/image/service.jpg'
               height="486"
               class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
               style="color: transparent"
-              :src="best"
+              src="https://i.ibb.co/MDN1LxSL/best.jpg"
             />
           </div>
         </div>
@@ -103,7 +99,7 @@ import service from '@/assets/image/service.jpg'
               </p>
               <div class="mt-6">
                 <a
-                  class="inline-flex rounded-lg bg-purple-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple-600 hover:bg-purple-700 hover:ring-purple-700"
+                  class="inline-flex rounded-lg bg-secondery px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-secondery hover:bg-navy hover:ring-navy"
                   href="/login"
                 >
                   Learn More
@@ -120,7 +116,7 @@ import service from '@/assets/image/service.jpg'
               height="485"
               class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
               style="color: transparent"
-              :src="service"
+              src="https://i.ibb.co/9k61fTxp/service.jpg"
             />
           </div>
         </div>

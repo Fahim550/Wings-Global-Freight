@@ -3,7 +3,11 @@
     <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-10">
       <!-- Image with badge -->
       <div class="w-full lg:w-1/2 relative">
-        <img src="@/assets/image/about.jpg" alt="Logistics" class="w-full rounded-lg shadow-lg" />
+        <img
+          src="https://i.ibb.co/351gFgsz/about.jpg"
+          alt="Logistics"
+          class="w-full rounded-lg shadow-lg"
+        />
         <div
           class="absolute bottom-0 left-0 bg-blue-500 text-white w-full text-center py-4 text-xl font-bold"
         >
@@ -13,7 +17,7 @@
 
       <!-- Text and Video Button -->
       <div class="w-full lg:w-1/2">
-        <h6 class="text-purple-500 font-bold uppercase mb-2">About Us</h6>
+        <h6 class="text-secondery font-bold uppercase mb-2">About Us</h6>
         <h2 class="text-3xl lg:text-4xl font-extrabold mb-4 leading-snug">
           Trusted & Faster Logistic Service Provider
         </h2>

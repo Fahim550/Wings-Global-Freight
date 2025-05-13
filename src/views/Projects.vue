@@ -11,7 +11,7 @@ import 'swiper/css/pagination'
 import '../assets/main.css'
 
 // import required modules
-import { EffectFade, Navigation, Pagination } from 'swiper/modules'
+import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules'
 
 export default {
   components: {
@@ -20,37 +20,49 @@ export default {
   },
   setup() {
     return {
-      modules: [EffectFade, Navigation, Pagination],
+      modules: [EffectFade, Navigation, Pagination, Autoplay],
     }
   },
 }
 </script>
 
 <template>
-  <div>
+  <div class="mt-6">
     <swiper
       :spaceBetween="30"
       :effect="'fade'"
-      :navigation="true"
+      :navigation="false"
+      :loop="true"
       :pagination="{
         clickable: true,
       }"
       :autoplay="{
-        delay: 1000,
+        delay: 5000,
         disableOnInteraction: false,
       }"
       :modules="modules"
-      class="mySwiper"
+      class="mySwiper bg-light"
     >
-      <swiper-slide><img src="https://swiperjs.com/demos/images/nature-1.jpg" /></swiper-slide
-      ><swiper-slide><img src="https://swiperjs.com/demos/images/nature-2.jpg" /></swiper-slide
-      ><swiper-slide><img src="https://swiperjs.com/demos/images/nature-3.jpg" /></swiper-slide
-      ><swiper-slide><img src="https://swiperjs.com/demos/images/nature-4.jpg" /></swiper-slide>
+      <swiper-slide
+        ><img
+          src="https://i.ibb.co/9H3gH9D8/IMG-20250512-WA0004.jpg"
+          alt="IMG-20250512-WA0002"
+          class="bg-cover max-w-5/6 flex justify-center mx-auto"
+          border="0" /></swiper-slide
+      ><swiper-slide
+        ><img
+          src="https://i.ibb.co/v4yVkJc2/IMG-20250512-WA0005.jpg"
+          alt="IMG-20250512-WA0005"
+          class="bg-cover max-w-5/6 flex justify-center mx-auto"
+          border="0"
+      /></swiper-slide>
     </swiper>
   </div>
-  <div class="bg-gray-100">
+  <div class="bg-light">
     <div class="container mx-auto px-4 py-16">
-      <h1 class="text-4xl font-bold text-center mb-8 uppercase">Wings Global Freight Ltd</h1>
+      <h1 class="text-4xl font-bold text-center mb-8 uppercase text-navy">
+        Wings Global Freight Ltd
+      </h1>
       <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
         <!-- Large item -->
         <div

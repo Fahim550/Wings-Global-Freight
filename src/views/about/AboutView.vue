@@ -1,7 +1,4 @@
 <script setup>
-import about1 from '@/assets/image/about1.jpg'
-import best from '@/assets/image/best.jpg'
-import service from '@/assets/image/service.jpg'
 import Hero from '@/components/shared/Hero.vue'
 </script>
 
@@ -36,7 +33,7 @@ import Hero from '@/components/shared/Hero.vue'
           <div class="mt-12 sm:mt-16 lg:mt-0">
             <div class="relative lg:h-full">
               <img
-                :src="about1"
+                src="https://i.ibb.co/dswzL7sd/about1.jpg"
                 alt="Freight services"
                 class="w-full h-auto rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:inset-0 lg:w-full lg:h-full object-cover"
               />
@@ -70,7 +67,7 @@ import Hero from '@/components/shared/Hero.vue'
                 height="486"
                 class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 style="color: transparent"
-                :src="best"
+                src="https://i.ibb.co/MDN1LxSL/best.jpg"
               />
             </div>
           </div>
@@ -99,7 +96,7 @@ import Hero from '@/components/shared/Hero.vue'
                 height="485"
                 class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 style="color: transparent"
-                :src="service"
+                src="https://i.ibb.co/9k61fTxp/service.jpg"
               />
             </div>
           </div>

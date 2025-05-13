@@ -1,45 +1,39 @@
 <script setup>
-import air from '@/assets/image/airfreight.jpg'
-import custom from '@/assets/image/custom.jpg'
-import importImg from '@/assets/image/import.jpg'
-import multi from '@/assets/image/multi-modal.jpg'
-import ocean from '@/assets/image/ocean-freight.jpeg'
-import warehousing from '@/assets/image/warehousing.jpg'
 import Hero from '@/components/shared/Hero.vue'
 const services = [
   {
     title: 'Ocean Freight',
-    image: ocean, // update with actual path
+    image: 'https://i.ibb.co/yFLcqrLn/ocean-freight.jpg', // update with actual path
     description:
       'We have a dedicated team for ocean freight to give you the best service available. Our team ensures seamless co-ordination between off-dock, Port and ICD operators.',
   },
   {
     title: 'Air Freight',
-    image: air, // update with actual path
+    image: 'https://i.ibb.co/7NNf7hDv/airfreight.jpg', // update with actual path
     description:
       'Our air freight team ensures every shipment is handled with care on a priority basis in Bangladesh with a lot of appreciation from major carriers which made us the pioneer of air freight operation in Bangladesh.',
   },
   {
     title: 'Multi-modal',
-    image: multi, // update with actual path
+    image: 'https://i.ibb.co/5ghNczgS/multi-modal.jpg', // update with actual path
     description:
       'Our expertise of multi-modal services safeguards you the best mode of transport combination which reduces the transit time through various transport mode to numerous destinations and ensures the best value for money.',
   },
   {
     title: 'Warehousing',
-    image: warehousing, // update with actual path
+    image: 'https://i.ibb.co/FCKb9Zw/warehousing.jpg', // update with actual path
     description:
       'We at Expo Freight understand your supply chain challenges and realize that warehousing and inventory control are very important aspects of your business. We have over 205,000 Square Feet of Warehouse Space.',
   },
   {
     title: 'Import Service',
-    image: importImg, // update with actual path
+    image: 'https://i.ibb.co/1G3XXL6L/import.jpg', // update with actual path
     description:
       'We deliver comprehensive supply chain solutions along with proactive customer service by offering competitive rates for various origins for both sea and air space allocations from major carriers.',
   },
   {
     title: 'Customs Brokerage',
-    image: custom, // update with actual path
+    image: 'https://i.ibb.co/FkSLyNvJ/custom.jpg', // update with actual path
     description:
       'We provide solutions to complex situations in the commercial world for getting through all steps of custom formalities, duty assessments, and tax calculations.',
   },
@@ -47,9 +41,9 @@ const services = [
 </script>
 <template>
   <Hero message="Service" />
-  <section class="bg-gray-100 text-center">
+  <section class="bg-light text-center">
     <div class="container mx-auto px-4 py-16">
-      <h2 class="text-3xl font-semibold mb-12">Our Services</h2>
+      <h2 class="text-3xl font-semibold mb-12 text-secondery">Our Services</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div
           v-for="service in services"
