@@ -33,7 +33,7 @@ onBeforeUnmount(() => {
     <div class="bg-navy h-10 text-white flex items-center justify-between px-4 text-sm">
       <!-- Left side: Email -->
       <div>
-        <a href="mailto:info@example.com" class="hover:underline">info@example.com</a>
+        <a href="mailto:info@example.com" class="hover:underline">info@wingsfreightbd.com</a>
       </div>
 
       <!-- Right side: Social Icons -->

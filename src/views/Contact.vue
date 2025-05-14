@@ -27,10 +27,10 @@ import Hero from '@/components/shared/Hero.vue'
         </div>
         <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-          <a class="text-red-500 leading-relaxed">info@example.com</a>
+          <a class="text-red-500 leading-relaxed">info@wingsfreightbd.com</a>
           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-          <p class="leading-relaxed">+8801711 504 103</p>
           <p class="leading-relaxed">+8809611 678 068</p>
+          <p class="leading-relaxed">+8801711 504 103</p>
         </div>
       </div>
     </div>

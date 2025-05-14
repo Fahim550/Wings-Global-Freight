@@ -1,4 +1,5 @@
 <script setup>
+import chairman from '@/assets/image/chairman.png'
 import dgpic from '@/assets/image/dgpic.jpg'
 import mdpic from '@/assets/image/mdpic.jpg'
 import { ref } from 'vue'
@@ -33,6 +34,67 @@ const closeModal = () => {
   </section>
 
   <div class="py-10 space-y-20">
+    <!-- chiarman -->
+    <div class="max-w-7xl mx-auto justify-between px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <!-- Left Column (Speech) -->
+        <div>
+          <h6 class="text-blue-600 uppercase font-bold text-sm tracking-widest">
+            A Message from Our Chairman
+          </h6>
+          <h1 class="text-3xl font-bold mt-2 mb-4">Our mission is to exceed your expectations.</h1>
+          <p class="text-gray-700 leading-relaxed mb-6">
+            At Wings Global Freight Ltd., our journey has always been driven by a singular vision —
+            to connect the world through efficient and trustworthy logistics. As Chairman, I take
+            immense pride in how far we have come and the values that guide us. In a world where
+            borders are no longer barriers, logistics has become the backbone of global trade. Our
+            team is dedicated to ensuring your cargo moves seamlessly, safely, and swiftly — no
+            matter the destination. We believe in partnerships, not just transactions, and we are
+            honored to be part of your business journey. Thank you for trusting us as your logistics
+            partner.
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1CHnFq49dW5qDNfDjWeS-lgw4MSgv2GGs/preview"
+            target="_blank"
+            class="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition"
+          >
+            Download Our Profile
+          </a>
+          <div class="flex items-center mt-6 space-x-4">
+            <button
+              @click="openModal('https://www.youtube.com/embed/YOUR_DIRECTOR_VIDEO')"
+              class="relative w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center"
+            >
+              <span class="absolute inset-0 rounded-full border-4 border-white animate-ping"></span>
+              <svg class="w-6 h-6 text-white z-10" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  fill-rule="evenodd"
+                  d="M6.5 5.5a1 1 0 011.493-.87l6 4a1 1 0 010 1.74l-6 4A1 1 0 016.5 13.5v-8z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <h5 class="text-lg font-semibold">Play Video</h5>
+          </div>
+        </div>
+
+        <!-- Right Column (Image + Info) -->
+        <div class="flex flex-col justify-center items-center">
+          <img
+            :src="chairman"
+            alt="Director Business Development"
+            class="w-4/6 justify-center max-h-[500px] object-cover rounded shadow"
+          />
+          <div class="bg-blue-600 text-white text-center w-4/6 py-4 mt-4">
+            <h4 class="text-xl font-semibold">
+              Aukiul Islam<br />
+              <span class="text-sm">Head of Business Development</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Managing Director Section -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -69,7 +131,7 @@ const closeModal = () => {
             import, export, and freight solutions
           </p>
           <a
-            href="https://wingsfreightbd.com/profile/Wings%20Global%20Freight%20Ltd-Corporate%20Profile.pdf"
+            href="https://drive.google.com/file/d/1CHnFq49dW5qDNfDjWeS-lgw4MSgv2GGs/preview"
             target="_blank"
             class="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition"
           >
@@ -113,7 +175,7 @@ const closeModal = () => {
             profile and discover how our passion and performance can support your logistics goals.
           </p>
           <a
-            href="https://wingsfreightbd.com/profile/Wings%20Global%20Freight%20Ltd-Corporate%20Profile.pdf"
+            href="https://drive.google.com/file/d/1CHnFq49dW5qDNfDjWeS-lgw4MSgv2GGs/preview"
             target="_blank"
             class="inline-block bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition"
           >

@@ -47,13 +47,13 @@ export default {
         ><img
           src="https://i.ibb.co/9H3gH9D8/IMG-20250512-WA0004.jpg"
           alt="IMG-20250512-WA0002"
-          class="bg-cover max-w-5/6 flex justify-center mx-auto"
+          class="bg-cover bg-center bg-no-repeat max-w-4/6 flex justify-center mx-auto"
           border="0" /></swiper-slide
       ><swiper-slide
         ><img
           src="https://i.ibb.co/v4yVkJc2/IMG-20250512-WA0005.jpg"
           alt="IMG-20250512-WA0005"
-          class="bg-cover max-w-5/6 flex justify-center mx-auto"
+          class="bg-cover bg-center bg-no-repeat max-w-4/6 flex justify-center mx-auto"
           border="0"
       /></swiper-slide>
     </swiper>
