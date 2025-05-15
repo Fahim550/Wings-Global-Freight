@@ -4,7 +4,7 @@ import logo from '@/assets/image/wings_logo.png'
 
 <template>
   <footer>
-    <div class="bg-navy py-8 text-gray-400">
+    <div class="bg-navy py-8 text-white">
       <div class="container mx-auto px-4">
         <div class="-mx-4 flex flex-wrap justify-between">
           <!-- Company Logo & Description -->

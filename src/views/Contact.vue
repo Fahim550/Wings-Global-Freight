@@ -30,7 +30,7 @@ import Hero from '@/components/shared/Hero.vue'
           <a class="text-red-500 leading-relaxed">info@wingsfreightbd.com</a>
           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
           <p class="leading-relaxed">+8809611 678 068</p>
-          <p class="leading-relaxed">+8801711 504 103</p>
+          <p class="leading-relaxed">+8801311 059 937</p>
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@ import Hero from '@/components/shared/Hero.vue'
           <div>
             <h4 class="text-lg font-medium">Contact</h4>
             <p class="flex items-center gap-2">
-              <FaPhoneAlt class="text-blue-500" /> +8801711 504 103
+              <FaPhoneAlt class="text-blue-500" /> +8801311 059 937
               <FaPhoneAlt class="text-blue-500" /> +8809611 678 068
             </p>
           </div>

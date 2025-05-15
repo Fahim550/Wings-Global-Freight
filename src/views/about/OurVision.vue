@@ -1,7 +1,7 @@
 <script setup>
 import chairman from '@/assets/image/chairman.png'
 import dgpic from '@/assets/image/dgpic.jpg'
-import mdpic from '@/assets/image/mdpic.jpg'
+import mdpic from '@/assets/image/mdpic.png'
 import { ref } from 'vue'
 
 const showModal = ref(false)
@@ -44,14 +44,17 @@ const closeModal = () => {
           </h6>
           <h1 class="text-3xl font-bold mt-2 mb-4">Our mission is to exceed your expectations.</h1>
           <p class="text-gray-700 leading-relaxed mb-6">
-            At Wings Global Freight Ltd., our journey has always been driven by a singular vision —
-            to connect the world through efficient and trustworthy logistics. As Chairman, I take
-            immense pride in how far we have come and the values that guide us. In a world where
-            borders are no longer barriers, logistics has become the backbone of global trade. Our
-            team is dedicated to ensuring your cargo moves seamlessly, safely, and swiftly — no
-            matter the destination. We believe in partnerships, not just transactions, and we are
-            honored to be part of your business journey. Thank you for trusting us as your logistics
-            partner.
+            At WingsGlobalFreightLtd.,we believethat logisticsis more than just the movementof
+            goods—it is the backboneof global commerceand a vital link betweenbusinessesand their
+            customers. Our journey has been driven by a clear vision: to offer
+            reliable,efficient,and customerfocused freight solutions that help our clients thrive in
+            an increasingly competitive world. With a strong foundation built on integrity,
+            innovation,and excellence,we are proud to be part of a dynamicindustrythat continuesto
+            shapeglobaltrade. We are committed to continuous improvement,investing in people,
+            technology, and partnershipsto ensure we remain at the forefront of the logistics
+            sector. As we look ahead,our focus remainson creatinglong-term valuefor our clients and
+            stakeholders, while upholding the highest standardsof serviceand professionalism. Thank
+            you for trusting WingsGlobalFreightLtd. asyourlogisticspartner.Together,we moveforward
           </p>
           <a
             href="https://drive.google.com/file/d/1CHnFq49dW5qDNfDjWeS-lgw4MSgv2GGs/preview"
@@ -87,8 +90,8 @@ const closeModal = () => {
           />
           <div class="bg-blue-600 text-white text-center w-4/6 py-4 mt-4">
             <h4 class="text-xl font-semibold">
-              Aukiul Islam<br />
-              <span class="text-sm">Head of Business Development</span>
+              Md Al Mamun Sanaul Huq<br />
+              <span class="text-sm">Chairman</span>
             </h4>
           </div>
         </div>
@@ -99,13 +102,13 @@ const closeModal = () => {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <!-- Left Column (Image + Info) -->
-        <div>
+        <div class="flex flex-col justify-center items-center">
           <img
             :src="mdpic"
             alt="Managing Director"
-            class="w-full max-h-[500px] object-cover rounded shadow"
+            class="w-4/6 justify-center max-h-[500px] object-cover rounded shadow"
           />
-          <div class="bg-blue-600 text-white text-center py-4 mt-4">
+          <div class="bg-blue-600 text-white text-center w-4/6 py-4 mt-4">
             <h4 class="text-xl font-semibold">
               MD. NURUL AMIN<br />
               <span class="text-sm">Managing Director</span>
@@ -122,13 +125,18 @@ const closeModal = () => {
             We are confident to handle your logistics needs.
           </h1>
           <p class="text-gray-700 leading-relaxed mb-6">
-            In today’s fast-paced and evolving logistics landscape, staying ahead requires more than
-            just experience — it demands innovation, flexibility, and a relentless commitment to
-            excellence. At Wings Global Freight Ltd., we understand the critical role we play in
-            your supply chain. That’s why we continuously refine our services to be smarter, faster,
-            and more reliable. We don’t just deliver goods — we deliver confidence. As you explore
-            our company profile, we hope you’ll see why we are the trusted choice for comprehensive
-            import, export, and freight solutions
+            At Wings Global Freight Ltd., we are driven by a simple yet powerful purpose —to connect
+            businessesacross the globe through seamless,reliable, and innovative logisticssolutions.
+            As Managing Director, I take great pride in leading a team that is committed to
+            excellence,customer satisfaction,and continuous improvement. In a fast-changing global
+            trade environment,agility and trust are more important than ever. That’s why we focus on
+            building strong relationshipswith our clients,understandingtheir unique
+            needs,anddeliveringtailoredsolutionsthat helpthem grow. Our strength liesin our
+            people,our network,and our unwaveringdedicationto service quality. With every shipment,
+            every route, and every client interaction, we aim to exceedexpectationsandset
+            newstandardsin freight forwarding. Welook forward to continuingour journeyof growth and
+            collaboration,and we thank all our partnersandclientsfor their trust in
+            WingsGlobalFreightLtd.
           </p>
           <a
             href="https://drive.google.com/file/d/1CHnFq49dW5qDNfDjWeS-lgw4MSgv2GGs/preview"
@@ -167,12 +175,12 @@ const closeModal = () => {
           </h6>
           <h1 class="text-3xl font-bold mt-2 mb-4">Our mission is to exceed your expectations.</h1>
           <p class="text-gray-700 leading-relaxed mb-6">
-            The logistics and freight forwarding industry is more competitive and complex than ever.
-            At Wings Global Freight Ltd., we’ve built our foundation on adaptability, precision, and
-            client-centric service. We go beyond simply managing cargo — we craft tailored solutions
-            that help your business grow and thrive. By combining industry insight with cutting-edge
-            practices, we ensure seamless operations at every stage. We invite you to browse our
-            profile and discover how our passion and performance can support your logistics goals.
+            With over 16yearsof experiencein the freight forwardingindustry,I’velearnedthat success
+            in logistics comesdown to trust, efficiency,and understandingour clients' needs. At
+            Wings GlobalFreight Ltd., we are committed to deliveringtailored solutions that help
+            businesses grow and competeglobally. Our goal is to be more than a serviceprovider—we
+            aim to be a reliablepartnerin everystepof your supplychainjourney.
+            Let’smoveforward,together.
           </p>
           <a
             href="https://drive.google.com/file/d/1CHnFq49dW5qDNfDjWeS-lgw4MSgv2GGs/preview"
@@ -200,13 +208,13 @@ const closeModal = () => {
         </div>
 
         <!-- Right Column (Image + Info) -->
-        <div>
+        <div class="flex flex-col justify-center items-center">
           <img
             :src="dgpic"
             alt="Director Business Development"
-            class="w-full max-h-[500px] object-cover rounded shadow"
+            class="w-4/6 justify-center max-h-[500px] object-cover rounded shadow"
           />
-          <div class="bg-blue-600 text-white text-center py-4 mt-4">
+          <div class="bg-blue-600 text-white text-center w-4/6 py-4 mt-4">
             <h4 class="text-xl font-semibold">
               Aukiul Islam<br />
               <span class="text-sm">Head of Business Development</span>
